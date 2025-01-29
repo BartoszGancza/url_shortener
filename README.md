@@ -1,5 +1,11 @@
 # Basic URL Shortener
 
+Database choice was made because SQLite is easily supported without any additional work and 
+dependencies by Django.
+
+Lack of authentication is done on purpose, as URL shortening services usually do not require a user
+account to use them (unless they include additional paid services).
+
 ## Application startup
 
 There are two options to run this application, using Docker, and running it directly on local machine.
