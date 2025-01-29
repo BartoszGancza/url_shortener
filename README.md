@@ -1,7 +1,7 @@
 # Basic URL Shortener
 
 Database choice was made because SQLite is easily supported without any additional work and 
-dependencies by Django.
+dependencies by Django and works well for small demo projects.
 
 Lack of authentication is done on purpose, as URL shortening services usually do not require a user
 account to use them (unless they include additional paid services).
